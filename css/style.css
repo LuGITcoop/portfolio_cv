@@ -1,0 +1,346 @@
+/* ADMIN TEST *{  outline:black solid 2px} 
+
+section:nth-child(1){background: khaki;}
+section:nth-child(2){background: olive}
+section:nth-child(3){background: orchid;}
+section:nth-child(4){background: gainsboro;}
+section:nth-child(5){background: goldenrod;} */
+
+
+/* GENERAL*/
+html{
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    color:#121440;
+}
+html {
+    scroll-behavior: smooth;
+  }
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    background: #F2DAC4;
+     }
+
+a {text-decoration: none; }
+
+strong{font-weight: 700;}
+
+p{font-size: medium;
+line-height:1.5em;}
+
+/* NAVI*/
+.centralnavi {
+    list-style-type: none;
+    background-color:#184059;
+    display:flex;
+    padding:1.5em;
+    margin: 0 auto;    
+    justify-content: center;
+     }
+.centralnavi a {
+    padding: 0.7em;
+    text-decoration: none;
+    color: #F26B83;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.centralnavi a:hover,
+.centralnavi a:focus{
+    background:rgba(242, 218, 196, 0.8);
+    color: #184059;
+    transition: 0.5s ease;
+    border-radius: 0.3em;
+    }
+
+/*HEADER*/
+.main{
+    background:url(../img/0SC_7198.jpg) no-repeat;
+    background-size: 100%;
+    background-position: 30% 30%;
+    padding: 6em;
+    display: flex;
+    justify-content: flex-end;
+     }
+
+ h1{
+    font-size: 3em;
+    padding: .5%;
+    background: #F26B83;
+    border-radius: .15em;
+    text-transform: uppercase;   
+    font-weight: 700;
+    text-align: center;
+    }
+
+h2{
+    background-color:#F28888;
+    padding: .2em;
+    font-size: 1.2em;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+       }
+
+.headericon{
+     line-height: 5em;
+     display:flex;
+     flex-flow: column;
+     }
+     
+.mediaicon{
+    color: white;
+    background: rgba(24, 64, 89, 0.8);
+    font-size: 2.5em;
+    border-radius: .2em;
+    align-content: center;
+    text-decoration: none;
+    padding: 0.2em 0.2em;
+}
+.mediaicon:focus,
+.mediaicon:hover{
+   background:#F26B83;
+}
+
+.icons{
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-around;
+    }
+
+/*BODY*/
+.menu{
+    background:rgbA(24, 64, 89, 0.5);
+    padding: 1em;
+    max-width: 5.5em;
+    border-radius: .7em;
+    position: fixed;
+    right:13%;
+    bottom:0;
+}
+    
+.menu a{color:#F26B83;
+        font-weight: 700;
+}
+.menu:hover,
+.menu:focus{
+    background:rgba(24, 64, 89, 0.8);
+    transition: 0.5s ease;
+    }
+
+.menu a:hover,
+.menu a:focus{
+    color:#F28888;}
+
+aside .text-center{
+    text-align: justify;
+    font-size: 1em;
+    color: #121440;
+    font-weight: 300;
+    margin:1em auto;
+    max-width: 80%;
+}
+aside strong,
+.newlive{
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+}
+.wrapbox{
+    display:flex;
+    flex-wrap: wrap;
+    margin:0 1em;
+    align-items: flex-start;
+    position: relative;
+    max-width: 100%;
+    }
+
+.basic{
+    text-align: left;
+    margin-top: 1em;
+}
+
+section ul {
+    list-style-position: outside;
+    list-style-type: "— ";
+    font-size: 1em;
+    text-align: left;
+    margin-left: 2em;
+    line-height: 1.5em;
+    }
+img{
+    max-width: 100%;
+    max-height: auto;
+}
+
+section{
+    margin-top: 1.5em;
+    
+}
+.secL{
+   width: 55%;
+   
+}
+
+.secP{
+    width:  39%;
+    margin-left: 4%;
+    }
+
+.pc li{
+    border-bottom:0.05em solid #F28888;
+    margin-bottom: 1em;
+}
+.pc ul li:last-child{
+    border: none;
+}
+
+.hobby{
+    text-indent: 2em;
+}
+.h2basic{
+    background-color:#F28888;
+    padding: .5em;
+    font-size: 1.2em;
+    width: 100%;
+    }
+
+h3{
+    border-bottom: #F28888 solid .1em;
+    margin-top: 1em;
+    padding: .4em 0;
+    font-size: 1em;
+}
+h4{
+    margin: 1em 0;
+    font-size: .7em;
+    text-align: right;
+    padding-right: .2em;}
+
+/* FOTOGALERIE*/
+.fotogalerie{
+    font-size: 0;
+    text-align: left;
+}
+.fotogalerie img:hover,
+.fotogalerie img:focus{
+    transform: scale(1.1);
+    }
+aside img{
+    width: 33%;
+    }
+
+/*footer*/
+.kontakt-list{
+    display:flex-column;
+    text-align: center;
+ }
+ 
+.kontakt{
+    background-color:#184059;
+    color: #F26B83
+}
+.kontaktlink a{
+    border: 1px dotted #F26B83;
+    color: #F26B83;
+    padding: .1em;
+    border-radius: .3em;
+    font-size: 1em;
+    line-height: 2em;
+    margin-left: .5em;
+    }
+
+.kontaktlink a:hover,
+.kontaktlink a:focus{
+    background:rgba(242, 218, 196, 0.8);
+    color: #184059;
+    transition: 0.5s ease;
+    border-radius: 0.3em;
+    }
+.kontaktlink{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #184059;
+    }
+
+/*MEDIA Q*/
+
+ @media (max-width:870px){
+     .secP,
+     .secL{
+        width: 100%;
+        flex-wrap: nowrap;
+     }
+     .basic{margin: 0.2em;}
+     .wrapbox{ margin:0 ;
+    padding: 0 0.5em}
+
+     .secP{margin: 0;}
+
+     .fotogalerie img{
+        width: 50%;
+     }
+     .centralnavi,p
+       {font-size: 90%; }
+    h2{
+        font-size: 1.2em;
+    }
+    .fotogalerie img:hover,
+    .fotogalerie img:focus{
+    transform: none;
+    cursor: pointer;
+    }
+    .main{
+        background-position: 50% 30%;
+        padding: 5em;
+         }
+    .headericon{
+        font-size: 80%;
+    }
+  }
+@media (max-width:760px){
+    .headericon{
+        font-size: 70%;
+     } 
+     .main{
+        background-position: 50% 30%;
+        margin-right: 0em;
+     }
+}
+
+ @media (max-width:570px){
+   .fotogalerie img{
+    width: 100%;
+    }
+    p, li{
+    font-size: 90%;
+    }
+    .pc,
+    .vinarstvi,
+    .jakost{display:none}
+
+    .main{
+        background-position: 50% 30%;
+        padding: 2em;
+        }
+    h1:{font-size: 50%;}
+ }
+ @media (max-width:470px){
+    .main{
+        background-position: 50% 30%;
+        padding: 1em;
+        }
+    h1:{font-size: 30%;}
+    .headericon{font-size: 50%;}
+
+    .centralnavi a{
+        font-size: 99.5%;
+        }
+    .kontaktlink{
+        flex-direction: column;
+    }
+}
